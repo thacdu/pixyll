@@ -14,7 +14,7 @@
 */
 
 body {
-  font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: Verdana, "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
 }
 
 html, body {
@@ -58,7 +58,7 @@ body {
 }
 
 .site-header a {
-  color: #333;
+  color: #2bb24c;
   font-weight: 300;
 }
 
@@ -340,7 +340,7 @@ h6,
   .post-meta {
     margin: 0;
     padding: 0;
-    font-size: 1.25rem;
+    font-size: 0.9rem;
   }
 
   .h1,
@@ -366,8 +366,8 @@ h6,
   .p,
   p,
   li {
-    font-size: 1.25rem;
-    line-height: 1.8;
+    font-size: 1rem;
+    line-height: 1.5;
   }
 
   .small {
@@ -565,4 +565,8 @@ Copyright (c) 2014 Daniel Eden
 .fade-in-down {
   -webkit-animation-name: fadeInDown;
           animation-name: fadeInDown;
+}
+
+.green {
+  color: #2bb24c;
 }

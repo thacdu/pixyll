@@ -13,10 +13,11 @@ google_analytics:
 animated:           true
 show_related_posts: false
 show_post_footers:  false
+navigator:          false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: thacdu
 
 # Social icons
 show_social_icons: true
@@ -32,4 +33,5 @@ flattr_button:
 # Build settings
 markdown:     kramdown
 permalink:    pretty
-paginate:     3
+paginate:     10
+

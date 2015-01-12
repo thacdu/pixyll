@@ -1,0 +1,17 @@
+---
+layout:     post
+title:      Hello World!
+date:       2015-01-12 17:30:00
+---
+
+###### Xin chào!
+
+Tôi dự định viết tech blog cũng khá lâu rồi nhưng do tôi lười nên giờ tôi mới bắt đầu viết những dòng này để khai trương cho cái blog của tôi.
+
+
+Blog của tôi chủ yếu là những bản ghi chép khi tôi gặp những vấn đề trong quá trình học tập và làm việc. Có thể nó rất đơn giản nhưng vì tôi hay quên nên tôi cũng sẽ đưa lên chia sẻ trên đây. Ngoài ra, chia sẻ những gì mình biết cũng là một lần để ghi nhớ, nên tôi sẽ cố gắng chia sẻ những gì tôi biết với mọi người.
+
+
+Blog của tôi sử dụng [Creative Commons License](http://creativecommons.org/licenses/by-nc-sa/2.5/)
+
+Xin hết.
