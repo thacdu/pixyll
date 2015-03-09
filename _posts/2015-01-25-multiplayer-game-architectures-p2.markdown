@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Multiplayer Game Architecture (P2)
-date:       2015-01-23 17:30:00
+date:       2015-01-25 19:30:00
 ---
 
 ### Part II: Client-Side Prediction and Server Reconciliation
@@ -104,4 +104,4 @@ Vấn đề này thực sự rất thú vị - dù mọi thứ có thể dự đ
 Khi sử dụng authoritative server, bạn cần mang lại cho người chơi những thay đổi, đáp ứng giả, trong khi bạn chờ đợi server thực sự thực thi hành động từ người chơi. Để làm vậy, client cần mô phỏng kết quả của các hành động. Khi trạng thái cập nhật được nhận từ server, trạng thái đã dự đoán tại client sẽ được tính toán lại dựa vào trạng thái cập nhật, và những hành động mà server chưa ghi nhận.
 
 
-Theo [Gabriel Gambetta](http://www.gabrielgambetta.com/fpm2.html)
+_Theo [Gabriel Gambetta](http://www.gabrielgambetta.com/fast_paced_multiplayer.html)_

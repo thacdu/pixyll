@@ -22,7 +22,7 @@ Lần này tôi quyết định làm bạn với Google, bỏ thời gian tìm h
 Và tôi thấy rằng mình cần chia sẻ điều thú vị này cho các game dev khác nên tôi quyết định sẽ dịch series này. Thực ra tôi định viết lại theo ý hiểu của tôi, nhưng tôi thấy bài viết gốc của tác giả dẫn dắt người đọc đã quá hay rồi nên thôi tôi dịch. Tránh nhiều người lại lấy blog của tôi để thay cho thuốc ngủ ![]({{ site.url }}/images/emo/sweat.gif)
 
 
-Tôi sẽ cố gắng dịch một số khái niệm và kèm theo bản gốc, tuy nhiên một số tôi không thể dịch hoặc thấy dịch ra thì không được hay nên tôi sẽ giữ nguyên.
+Tôi sẽ cố gắng dịch một số khái niệm và kèm theo bản gốc, tuy nhiên một số tôi không thể dịch hoặc thấy dịch ra không được hay thì tôi sẽ giữ nguyên.
 
 
 ### Part I: Giới thiệu
@@ -46,7 +46,7 @@ Có rất nhiều cách để ngăn chặn việc gian lận của người chơ
 #### Authoritative servers and dumb clients
 
 
-Một giải pháp rất đơn giản đó là, mọi sự kiện trong game của bạn đều xảy ra đưới sự kiểm soát của server và khi đó client chỉ có quyền theo dõi diễn biến của game. Nói cách khác, game client gửi hành động (ví dụ như hành động bấm phím) lên cho server, server thực hiện hành động và gửi lại kết quả cho các clients. Việc này được gọi là sử dụng _máy chủ quyền năng_ (authoritative server), bởi vì thứ duy nhất có quyền quyết định bất chấp mọi thứ xảy ra trên thế giới chính là server.
+Một giải pháp rất đơn giản đó là, mọi sự kiện trong game của bạn đều xảy ra đưới sự kiểm soát của server và khi đó client chỉ có quyền theo dõi diễn biến của game. Nói cách khác, game client gửi hành động (ví dụ như hành động bấm phím) lên cho server, server thực hiện hành động và gửi lại kết quả cho các clients. Việc này được gọi là sử dụng _máy chủ độc quyền_ (authoritative server), bởi vì thứ duy nhất có quyền quyết định bất chấp mọi thứ xảy ra trên thế giới chính là server.
 
 
 Tất nhiên, server của bạn có thể bị khai thác từ các lỗ hổng bảo mật, tuy nhiên vấn đề đó nằm ngoài phạm vi của bài viết. Việc sử dụng authoritative server sẽ ngăn chặn được phần lớn gian lận. Ví dụ, khi bạn không tin vào thông tin về "máu" của player được cung cấp từ client: một client có thể gian lận thông tin bằng cách chỉnh sửa các giá trị và nói rằng player đó có 10000% máu, nhưng server biết rằng nó chỉ là 10% - player đó sẽ chết khi bị tấn công, không cần quan tâm tới bất cứ thông tin gì mà client gian lận gửi lên.
@@ -89,5 +89,6 @@ Game trực tuyến nhiều người chơi thực sự rất thú vị, nhưng c
 
 
 Trong những bài viết tiếp theo, chúng ta sẽ tìm hiểu làm thế nào để xây dựng một hệ thống dựa trên authoritative server, trong khi vẫn tối giản được độ trễ (delay), để người chơi được trải nghiệm như là đang chơi một single player game.
+
 
 _Theo [Gabriel Gambetta](http://www.gabrielgambetta.com/fast_paced_multiplayer.html)_
